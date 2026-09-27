@@ -1,0 +1,10 @@
+[
+  { "id": "1", "appId": "com.squirrel.Discord.Discord", "appName": "Discord", "texts": ["Ahmed", "server is down, call me"], "createdAt": "2026-09-27T10:00:00Z" },
+  { "id": "2", "appId": "com.squirrel.Discord.Discord", "appName": "Discord", "texts": ["Taha (#alerts, V4Tech)", "@REDFC can you check the deploy?"], "createdAt": "2026-09-27T10:01:00Z" },
+  { "id": "3", "appId": "com.squirrel.Discord.Discord", "appName": "Discord", "texts": ["Moiz (#bug-123, #alerts, V4Tech)", "@red look at this"], "createdAt": "2026-09-27T10:02:00Z" },
+  { "id": "4", "appId": "com.squirrel.Discord.Discord", "appName": "Discord", "texts": ["Ahmed (Client Group)", "meeting moved"], "createdAt": "2026-09-27T10:03:00Z" },
+  { "id": "5", "appId": "com.squirrel.Discord.Discord", "appName": "Discord", "texts": ["Taha (#general, Server, With Comma)", "@everyone lunch"], "createdAt": "2026-09-27T10:04:00Z" },
+  { "id": "6", "appId": "com.squirrel.Discord.Discord", "appName": "Discord", "texts": ["Discord", "Update ready"], "createdAt": "2026-09-27T10:05:00Z" },
+  { "id": "7", "appId": "Microsoft.Office.OUTLOOK.EXE.15", "appName": "Outlook", "texts": ["Boss", "hi"], "createdAt": "2026-09-27T10:06:00Z" },
+  { "id": "8", "appId": "com.squirrel.Discord.Discord", "appName": "Discord", "texts": ["Ali (work)", "ping"], "createdAt": "2026-09-27T10:07:00Z" }
+]

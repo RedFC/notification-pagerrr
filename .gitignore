@@ -1,0 +1,7 @@
+node_modules/
+out/
+dist/
+resources/helper/
+helper-win/bin/
+helper-win/obj/
+*.pfx

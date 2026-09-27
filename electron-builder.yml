@@ -1,0 +1,38 @@
+appId: club.redfc.discordpager
+productName: Discord Pager
+directories:
+  output: dist
+  buildResources: build
+files:
+  - out/**
+  - package.json
+extraResources:
+  - from: resources/
+    to: .
+    filter: ["**/*"]
+mac:
+  target:
+    - target: dmg
+      arch: [universal]
+  category: public.app-category.productivity
+  extendInfo:
+    LSUIElement: true   # menu-bar app, no Dock icon
+    NSLocalNetworkUsageDescription: Discord Pager connects to your Windows listener on the home network.
+    NSBonjourServices: ["_discordpager._tcp"]
+  identity: "-"         # ad-hoc signature (personal use, no Apple Developer account)
+# The default (legacy) signtool cannot sign MSIX on Windows 11 ("A required function is not present").
+# 1.0.0 uses the Windows SDK 10.0.26100 signtool instead.
+toolsets:
+  winCodeSign: "1.0.0"
+win:
+  target:
+    - target: appx
+      arch: [x64]
+appx:
+  identityName: DiscordPager
+  applicationId: DiscordPager
+  displayName: Discord Pager
+  publisherDisplayName: REDFC
+  # Must match the subject of the self-signed certificate used to sign the MSIX.
+  publisher: CN=REDFC
+  customManifestPath: appxmanifest.xml
